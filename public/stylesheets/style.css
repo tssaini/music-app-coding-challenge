@@ -1,0 +1,43 @@
+body {
+	background-color: lightgreen;
+  
+	/* Smoothly transition the background color */
+	transition: background-color .5s;
+  }
+  
+  .playlist {
+	height: 95vh;
+	display: flex;
+  }
+  
+  .details {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 25px;
+  }
+  
+  .track-art, .next-track-art {
+	margin: 25px;
+	height: 250px;
+	width: 250px;
+	background-image: url("https://images.pexels.com/photos/262034/pexels-photo-262034.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+	background-size: cover;
+	border-radius: 15%;
+  }
+  
+  .track-name, .next-track-name{
+	font-size: 3rem;
+  }
+  
+  .track-artist, .next-track-artist{
+	font-size: 1.5rem;
+  }
+  
+  .buttons{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+  }
+  

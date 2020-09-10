@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Simple Music Player</title>
+	<!-- Load FontAwesome icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+	<!-- Load the custom CSS style file -->
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+
+<body>
+	<div class="search">
+		<form action="/">
+			<label for="category">Category:</label>
+			<input type="text" id="category" name="category"><br><br>
+		</form>
+	</div>
+	<div class="playlist">
+		<div class="current">
+			<div class="details">
+				<div class="track-art"></div>
+				<div class="track-name">Track Name</div>
+				<div class="track-artist">Track Artist</div>
+				<button type="button">Lyrics</button>
+			</div>
+		</div>
+		<div class="next">
+			<div class="details">
+				<div class="next-track-art"></div>
+				<div class="next-track-name">Track Name</div>
+				<div class="next-track-artist">Track Artist</div>
+				<button type="button">Lyrics</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Load the main script for the player -->
+	<script src="javascripts/index.js"></script>
+</body>
+
+</html>
